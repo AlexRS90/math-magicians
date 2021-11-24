@@ -2,14 +2,19 @@
 
 ## Math-magicians
 
-> React-Setup.
+> Basic calculator layout.
 
-![screenshot](ssSetup.png)
+![screenshot](ssComponents.png)
 
 ### Milestone 1:
  - Followed git-flow
  - Added linters
  - Created <code>my-app</code> React App
+### Milestone 2:
+ - Deleted boilerplate from CRA
+ - Created component file called Calculator.js
+ - Called Calculator.js from App.js
+ - Added styles to the calculator
  
 ## Built With
 
