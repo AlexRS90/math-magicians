@@ -4,10 +4,11 @@ import Calculator from './components/Calculator';
 
 class App extends React.Component {
   render() {
-    return  <div className="App">
+    return (<div className="App">
       <h1>Math Magicians</h1>
       <Calculator />
-      </div>;
+    </div>
+    );
   }
 }
 
