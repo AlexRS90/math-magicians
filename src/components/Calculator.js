@@ -1,6 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Calculator extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return (
       <div className="calculator-container">
@@ -25,7 +28,7 @@ class Calculator extends Component {
         <button type="button" className="numbers">.</button>
         <button type="button" className="operations">=</button>
       </div>
-    );    
+    );
   }
 }
 

@@ -37,11 +37,8 @@
 
 button {
   border: none;
-  border-bottom: 1 px solid teal !important;
 }
 
 .zero {
   grid-column: span 2;
 }
-
-
