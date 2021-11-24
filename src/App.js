@@ -6,9 +6,9 @@ import Calculator from './components/Calculator';
 class App extends React.Component {
   render() {
     return (
-    <div className="App">
+      <div className="App">
       <h1>Math Magicians</h1>
-      <Calculator></Calculator>
+      <Calculator />
     </div>
     );
   }
