@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big.js';//eslint-disable-line
 
 export default function operate(numberOne, numberTwo, operation) {
   const one = Big(numberOne);
