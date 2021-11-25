@@ -1,7 +1,15 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  padding-bottom: 10%;
 }
 
 .calculator-container {
@@ -18,12 +26,13 @@
 
 .display-result {
   text-align: end;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-right: 10px;
   grid-column: 1/ -1;
   background-color: gray;
   color: white;
   margin: 0;
+  font-size: 30px;
 }
 
 .operations {

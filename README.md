@@ -4,7 +4,7 @@
 
 > Basic calculator layout.
 
-![screenshot](ssComponents.png)
+![screenshot](ssEvents.png)
 
 ### Milestone 1:
  - Followed git-flow
@@ -15,6 +15,11 @@
  - Created component file called Calculator.js
  - Called Calculator.js from App.js
  - Added styles to the calculator
+### Milestone 3:
+ - Added logic folder
+ - Added calculate and operate JavaScript files
+ - Imported calculate.js to Calculator.js
+ - Implemented event handlers
  
 ## Built With
 
