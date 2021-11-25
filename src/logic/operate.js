@@ -23,7 +23,7 @@ export default function operate(numberOne, numberTwo, operation) {
     try {
       return one.mod(two).toString();
     } catch (err) {
-      return "Can't divide by 0."
+      return "Can't divide by 0.";
     }
   }
   throw Error(`Unknown operation '${operation}'`);
