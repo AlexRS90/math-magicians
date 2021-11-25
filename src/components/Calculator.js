@@ -13,6 +13,9 @@ const Calculator = () => {
 
   const handleClick = (obj2, btnValue) => {
     const newObj = calculate(obj2, btnValue);
+    if (!newObj.next && !newObj.total) {
+        newObj.next = '0';
+    }
     newNumbers(newObj);
   };
 
