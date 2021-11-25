@@ -20,17 +20,17 @@ class Calculator extends Component {
     if (!newObj.next && !newObj.total) {
       newObj.next = 0;
     }
-    this.setState({obj: newObj});
+    this.setState({ obj: newObj });
   };
 
   render() {
-    const {obj} = this.state;
+    const { obj } = this.state;
     return (
       <div className="calculator-container">
         <p className="display-result">
-            {obj.total}
-            {obj.operation}
-            {obj.next}
+          {obj.total}
+          {obj.operation}
+          {obj.next}
         </p>
         <button onClick={() => this.sendData(obj, 'AC')} type="button">AC</button>
         <button onClick={() => this.sendData(obj, '+/-')} type="button">+/-</button>
