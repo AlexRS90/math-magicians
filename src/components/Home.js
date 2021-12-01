@@ -43,11 +43,11 @@ export default function Home() {
         From 0 to 1,000, the letter &quot;A&quot; only appears in 1,000 (&quot;one thousand&quot;)
         <br />
       </p>
-        <p className="home-last">
-          Words such as formula, equation and calculation sounds boring for
-          those who hate Maths as a subject, whereas it is fun for those who
-          have keen interest towards solving equations/problems.
-        </p>
+      <p className="home-last">
+        Words such as formula, equation and calculation sounds boring for
+        those who hate Maths as a subject, whereas it is fun for those who
+        have keen interest towards solving equations/problems.
+      </p>
     </div>
   );
 }
