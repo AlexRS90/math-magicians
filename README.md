@@ -4,7 +4,7 @@
 
 > Basic calculator layout.
 
-![screenshot](ssEvents.png)
+![screenshot](ssSPA.png)
 
 ### Milestone 1:
  - Followed git-flow
@@ -20,6 +20,10 @@
  - Added calculate and operate JavaScript files
  - Imported calculate.js to Calculator.js
  - Implemented event handlers
+### Milestone 4:
+ - Added new functional components
+ - Implemented react router
+ - Made a single page application
  
 ## Built With
 
@@ -47,7 +51,7 @@ Once you completed this steps you should see the app running at: http://localhos
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlexRS90/liderboard/issues)
+Feel free to check the [issues page](https://github.com/AlexRS90/math-magicians/issues)
 
 ## Show your support
 

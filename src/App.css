@@ -4,12 +4,29 @@ body {
   padding: 0;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
   padding-bottom: 10%;
+}
+
+.calc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.calc-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  width: 400px;
 }
 
 .calculator-container {
@@ -20,8 +37,8 @@ body {
   grid-template-rows: minmax(4rem, auto) repeat(5, 6rem);
   gap: 2px;
   font-size: 20px;
-  background-color: #c4c4c7;
   border: 5px solid #c4c4c7;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
 }
 
 .display-result {
@@ -50,4 +67,41 @@ button {
 
 .zero {
   grid-column: span 2;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.home-title {
+  font-size: 40px;
+}
+
+.home-introduction {
+  font-size: 25px;
+  text-decoration: lawngreen;
+}
+
+.home-facts {
+  padding-left: 2rem;
+}
+
+.bullets {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.home-last {
+  font-size: 20px;
+}
+
+.quote {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.quotes-img {
+  height: 500px;
 }

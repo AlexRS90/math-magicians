@@ -1,17 +1,20 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Quote from './components/Quotes';
+import Navbar from './components/Navbar';
 
-// eslint-disable-next-line
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <h1>Math Magicians</h1>
-        <Calculator />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+  </>
+);
 
 export default App;
