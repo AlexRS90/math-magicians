@@ -4,7 +4,7 @@
 
 > Basic calculator layout.
 
-![screenshot](ssEvents.png)
+![screenshot](ssSPA.png)
 
 ### Milestone 1:
  - Followed git-flow
@@ -20,6 +20,10 @@
  - Added calculate and operate JavaScript files
  - Imported calculate.js to Calculator.js
  - Implemented event handlers
+### Milestone 4:
+ - Added new functional components
+ - Implemented react router
+ - Made a single page application
  
 ## Built With
 
