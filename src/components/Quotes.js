@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import funQuote from './51P7XOzA4bL.jpeg';
 
 export default function Quotes() {
   return (
-    <div className="container">
-      <h1>Página de Quotes</h1>
-      <p>
-        <Link to="/edulazaro">Proyectos de Edu</Link>
-      </p>
+    <div className="quote">
+      <img className="quotes-img" src={funQuote} alt="Math quote"></img>
     </div>
   );
 }
