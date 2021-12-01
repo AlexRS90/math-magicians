@@ -51,7 +51,7 @@ Once you completed this steps you should see the app running at: http://localhos
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlexRS90/liderboard/issues)
+Feel free to check the [issues page](https://github.com/AlexRS90/math-magicians/issues)
 
 ## Show your support
 
