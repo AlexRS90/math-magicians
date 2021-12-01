@@ -20,7 +20,7 @@ const Calculator = () => {
 
   return (
     <div className="calc-wrapper">
-      <p className="calc-text">Let's do some Math!</p>
+      <p className="calc-text">Let&apos;s do some Math!</p>
       <div className="calculator-container">
         <p className="display-result">
           {obj.total}
