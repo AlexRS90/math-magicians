@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import renderer from 'react-test-renderer';
-import Home from "./Home";
+import Home from './Home';
 import Quotes from './Quotes';
 import Calculator from './Calculator';
 
@@ -19,7 +19,7 @@ describe('Rendering all pages', () => {
     expect(quote).toMatchSnapshot();
   });
 
-  it ('Render Calculator', () => {
+  it('Render Calculator', () => {
     const calc = renderer
       .create(<Calculator />)
       .toJSON();

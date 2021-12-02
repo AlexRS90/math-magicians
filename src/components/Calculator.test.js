@@ -58,4 +58,3 @@ describe('Calcuator Button clicks', () => {
     fireEvent.click(button9);
   });
 });
-
