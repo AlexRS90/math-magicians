@@ -6,10 +6,10 @@ import Calculator from './Calculator';
 
 describe('Rendering all pages', () => {
   it('Render Home page', () => {
-    const nav = renderer
+    const home = renderer
       .create(<Home />)
       .toJSON();
-    expect(nav).toMatchSnapshot();
+    expect(home).toMatchSnapshot();
   });
 
   it('Render Quote page', () => {
