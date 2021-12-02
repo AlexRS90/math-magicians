@@ -1,4 +1,4 @@
-import operate from './operate.js';
+import operate from './operate';
 
 describe('Operate file tests', () => {
   test('Operation +', () => {
@@ -8,7 +8,7 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('440');
-  })
+  });
   test('Operation -', () => {
     const numberOne = '420';
     const numberTwo = '20';
@@ -16,7 +16,7 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('400');
-  })
+  });
   test('Operation x', () => {
     const numberOne = '420';
     const numberTwo = '20';
@@ -24,7 +24,7 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('8400');
-  })
+  });
   test('Operation ÷', () => {
     const numberOne = '420';
     const numberTwo = '20';
@@ -32,8 +32,8 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('21');
-  })
-  
+  });
+
   test('Operation ÷ with Error', () => {
     const numberOne = '420';
     const numberTwo = '0';
@@ -41,7 +41,7 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('Can\'t divide by 0.');
-  })
+  });
 
   test('Operation %', () => {
     const numberOne = '420';
@@ -50,8 +50,8 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('0');
-  })
-  
+  });
+
   test('Operation % with Error', () => {
     const numberOne = '420';
     const numberTwo = '0';
@@ -59,5 +59,5 @@ describe('Operate file tests', () => {
 
     const result = operate(numberOne, numberTwo, operation);
     expect(result).toBe('Can\'t divide by 0.');
-  })
-})
+  });
+});
