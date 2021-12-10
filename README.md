@@ -31,6 +31,12 @@
 - Visual Studio Code
 - Linters
 
+## Live Demo
+
+[Heroku](https://math-wizards.herokuapp.com/)
+
+[Netlify](https://61b3d77563cfc0e1c8c79eca--upbeat-euclid-41bf55.netlify.app/)
+
 ## Set up locally
 
 - Open your terminal and run the following command: <code>git clone https://github.com/AlexRS90/math-magicians.git</code>
